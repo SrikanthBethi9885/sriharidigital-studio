@@ -8,6 +8,44 @@ const Home = () => {
             {/* Hero / Slideshow */}
             <HeroSlider />
             {/* Camera Details */}
+            {/* Experience */}
+            <section className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row gap-6">
+                {/* Left: Owner Photo */}
+                <div className="md:w-1/2 flex justify-center items-center">
+                    <div className="flex flex-col items-center">
+                        <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-green-400">
+                            <img
+                                src="/owner.jpg"
+                                alt="Owner"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+                        <p className="mt-4 text-lg font-medium text-green-700">CH Harish</p>
+                    </div>
+                </div>
+
+
+                {/* Right: Experience + Contact */}
+                <div className="md:w-1/2 flex flex-col justify-center space-y-4">
+                    <h2 className="text-2xl font-semibold text-blue-700">🧑‍💼 Our Experience</h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        With over <strong>15 Years of professional photography</strong> experience, SriHariDigital Studio
+                        has covered more than <strong>1000+ weddings</strong>, <strong>300 baby shoots</strong>, and
+                        numerous fashion, event, and commercial shoots. We bring passion and precision to every frame.
+                    </p>
+
+                    {/* WhatsApp Contact */}
+                    <a
+                        href="https://wa.me/919876543210"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center space-x-2 text-white bg-green-500 hover:bg-green-600 transition-colors px-4 py-2 rounded-lg shadow-md w-fit"
+                    >
+                        <FaWhatsapp className="text-lg" />
+                        <span className="font-medium text-base">Chat on WhatsApp: +91 7993102265</span>
+                    </a>
+                </div>
+            </section>
             <section>
                 <h2 className="text-2xl font-semibold text-blue-700 mb-6">📷 Our Camera Gear</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -53,44 +91,7 @@ const Home = () => {
 
 
 
-            {/* Experience */}
-            <section className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row gap-6">
-                {/* Left: Owner Photo */}
-                <div className="md:w-1/2 flex justify-center items-center">
-                    <div className="flex flex-col items-center">
-                        <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-blue-100">
-                            <img
-                                src="/owner.jpg"
-                                alt="Owner"
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-                        <p className="mt-4 text-lg font-medium text-green-700">CH Harish</p>
-                    </div>
-                </div>
 
-
-                {/* Right: Experience + Contact */}
-                <div className="md:w-1/2 flex flex-col justify-center space-y-4">
-                    <h2 className="text-2xl font-semibold text-blue-700">🧑‍💼 Our Experience</h2>
-                    <p className="text-gray-700 leading-relaxed">
-                        With over <strong>15 Years of professional photography</strong> experience, SriHariDigital Studio
-                        has covered more than <strong>1000+ weddings</strong>, <strong>300 baby shoots</strong>, and
-                        numerous fashion, event, and commercial shoots. We bring passion and precision to every frame.
-                    </p>
-
-                    {/* WhatsApp Contact */}
-                    <a
-                        href="https://wa.me/919876543210"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center space-x-2 text-white bg-green-500 hover:bg-green-600 transition-colors px-4 py-2 rounded-lg shadow-md w-fit"
-                    >
-                        <FaWhatsapp className="text-lg" />
-                        <span className="font-medium text-base">Chat on WhatsApp: +91 7993102265</span>
-                    </a>
-                </div>
-            </section>
 
             {/* Sample Photos Grid */}
             <section>
