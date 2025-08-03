@@ -7,9 +7,9 @@ const Header = () => (
       {/* Left: Logo / Studio Name */}
       <Link
         to="/"
-        className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                className="text-2xl font-bold text-blue-400 hover:text-blue-800 transition-colors duration-200"
       >
-                SriHariDigital Studio
+                Srihari Digital Studio
       </Link>
 
       {/* Right: Navigation */}
@@ -18,7 +18,7 @@ const Header = () => (
         <Link to="/services" className="hover:text-blue-600 transition-colors">Services</Link>
         <Link to="/booking" className="hover:text-blue-600 transition-colors">Booking</Link>
         <Link to="/gallery" className="hover:text-blue-600 transition-colors">Gallery</Link>
-        <Link to="/admin" className="hover:text-blue-600 transition-colors">Admin</Link>
+                {/* <Link to="/admin" className="hover:text-blue-600 transition-colors">Admin</Link> */}
       </nav>
     </div>
   </header>
