@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200 py-6">
       <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between text-gray-600">
-        <p className="text-sm mb-4 sm:mb-0">&copy; {new Date().getFullYear()} శ్రీ హరి డిజిటల్ స్టూడియో. All rights reserved.</p>
+        <p className="text-sm mb-4 sm:mb-0">&copy; {new Date().getFullYear()} Srihari Digital Studio. All rights reserved.</p>
 
         <div className="flex space-x-4 text-xl">
           <a
