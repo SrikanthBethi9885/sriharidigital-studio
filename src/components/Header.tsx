@@ -9,7 +9,7 @@ const Header = () => (
         to="/"
         className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-200"
       >
-        SriHariDigital Studio
+                శ్రీ హరి డిజిటల్ స్టూడియో
       </Link>
 
       {/* Right: Navigation */}
